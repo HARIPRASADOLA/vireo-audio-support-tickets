@@ -1,0 +1,87 @@
+======================================================================
+VIREO AUDIO — AI-ASSISTED CATEGORISATION
+======================================================================
+
+Total tickets: 11,780
+Tickets available for training: 11,780
+Number of existing categories: 11
+
+Existing categories:
+category
+Billing & Payments     2564
+Delivery & Shipping    1905
+Other                  1622
+Returns & Refunds      1049
+Connectivity           1002
+Charging & Battery      820
+App & Firmware          699
+Product Enquiry         612
+Audio Quality           591
+Warranty & Repair       525
+Account & Login         391
+
+Tickets after minimum-category filter: 11,780
+
+Training tickets: 9,424
+Test tickets:     2,356
+
+Training classifier...
+Training complete.
+
+======================================================================
+MODEL EVALUATION
+======================================================================
+
+Accuracy: 83.96%
+
+Classification report:
+                     precision    recall  f1-score   support
+
+    Account & Login       0.89      0.92      0.91        78
+     App & Firmware       0.86      0.79      0.83       140
+      Audio Quality       0.83      0.95      0.89       118
+ Billing & Payments       0.88      0.87      0.87       513
+ Charging & Battery       0.83      0.96      0.89       164
+       Connectivity       0.84      0.94      0.89       200
+Delivery & Shipping       0.79      0.92      0.85       381
+              Other       0.83      0.43      0.57       325
+    Product Enquiry       0.85      0.95      0.90       122
+  Returns & Refunds       0.84      0.93      0.89       210
+  Warranty & Repair       0.82      0.82      0.82       105
+
+           accuracy                           0.84      2356
+          macro avg       0.84      0.86      0.84      2356
+       weighted avg       0.84      0.84      0.83      2356
+
+
+Generating AI categories for all tickets...
+
+======================================================================
+AI OUTPUT SUMMARY
+======================================================================
+
+Existing category / AI agreement: 85.11%
+Low-confidence AI predictions: 23.05%
+
+AI category distribution:
+ai_category
+Billing & Payments     2525
+Delivery & Shipping    2109
+Returns & Refunds      1182
+Connectivity           1136
+Charging & Battery      907
+Other                   873
+Product Enquiry         700
+Audio Quality           690
+App & Firmware          671
+Warranty & Repair       539
+Account & Login         448
+
+======================================================================
+FILES CREATED
+======================================================================
+output/ai_categorised_tickets.csv
+output/ai_model_evaluation.csv
+output/category_comparison.csv
+
+AI categorisation complete.

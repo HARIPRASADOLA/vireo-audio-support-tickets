@@ -1,0 +1,4 @@
+metric,value
+test_accuracy,0.8395585738539898
+existing_ai_category_agreement,0.8511035653650255
+low_confidence_rate,0.2304753820033956

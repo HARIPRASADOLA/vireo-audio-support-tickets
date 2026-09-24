@@ -1,0 +1,40 @@
+VIREO AUDIO — BUSINESS VOLUME ANALYSIS
+======================================================================
+
+Total tickets: 11,780
+
+CATEGORY VOLUME
+----------------------------------------------------------------------
+           category  tickets  share_pct
+ Billing & Payments     2564  21.765705
+Delivery & Shipping     1905  16.171477
+              Other     1622  13.769100
+  Returns & Refunds     1049   8.904924
+       Connectivity     1002   8.505942
+ Charging & Battery      820   6.960951
+     App & Firmware      699   5.933786
+    Product Enquiry      612   5.195246
+      Audio Quality      591   5.016978
+  Warranty & Repair      525   4.456706
+    Account & Login      391   3.319185
+
+TEAM VOLUME
+----------------------------------------------------------------------
+         assigned_team  tickets  share_pct
+        Chat Frontline     3030  25.721562
+               Billing     2564  21.765705
+             Logistics     1905  16.171477
+       Email Frontline     1807  15.339559
+          Returns Desk     1049   8.904924
+       Voice Frontline      900   7.640068
+Escalations & Warranty      525   4.456706
+
+BILLING CHECK
+----------------------------------------------------------------------
+Billing tickets: 2,564
+Billing share: 21.77%
+
+LOGISTICS CHECK
+----------------------------------------------------------------------
+Logistics tickets: 1,905
+Logistics share: 16.17%

@@ -1,0 +1,176 @@
+======================================================================
+VIREO AUDIO — SUPPORT DATA PROFILE
+======================================================================
+
+======================================================================
+FILE: tickets.csv
+======================================================================
+Rows: 11,780
+Columns: 21
+
+Columns:
+  - ticket_id
+  - created_at
+  - first_response_at
+  - resolved_at
+  - status
+  - channel
+  - customer_id
+  - order_id
+  - product_sku
+  - category
+  - priority
+  - assigned_team
+  - agent_id
+  - transfers
+  - csat_score
+  - refund_amount_inr
+  - refund_reason_code
+  - replacement_issued
+  - customer_message
+  - agent_notes
+  - source_system
+
+Missing values:
+  - resolved_at: 583 (4.95%)
+  - order_id: 4,017 (34.10%)
+  - transfers: 4,052 (34.40%)
+  - csat_score: 6,435 (54.63%)
+  - refund_amount_inr: 9,886 (83.92%)
+  - refund_reason_code: 9,886 (83.92%)
+
+Duplicate rows: 0
+Duplicate ticket IDs: 0
+
+Existing categories:
+category
+Billing & Payments     2564
+Delivery & Shipping    1905
+Other                  1622
+Returns & Refunds      1049
+Connectivity           1002
+Charging & Battery      820
+App & Firmware          699
+Product Enquiry         612
+Audio Quality           591
+Warranty & Repair       525
+Account & Login         391
+
+Assigned teams:
+assigned_team
+Chat Frontline            3030
+Billing                   2564
+Logistics                 1905
+Email Frontline           1807
+Returns Desk              1049
+Voice Frontline            900
+Escalations & Warranty     525
+
+Statuses:
+status
+resolved    10128
+closed       1069
+open          336
+pending       247
+
+Channels:
+channel
+chat      5387
+email     3555
+voice     1702
+social    1136
+
+Date range:
+  Start: 2024-06-20 01:36:00
+  End:   2026-06-30 23:22:00
+
+======================================================================
+FILE: agents.csv
+======================================================================
+Rows: 44
+Columns: 8
+
+Columns:
+  - agent_id
+  - name
+  - site
+  - team
+  - shift
+  - tier
+  - from_date
+  - to_date
+
+Missing values:
+  - to_date: 44 (100.00%)
+
+Duplicate rows: 0
+
+======================================================================
+FILE: orders.csv
+======================================================================
+Rows: 15,000
+Columns: 8
+
+Columns:
+  - order_id
+  - customer_id
+  - sku
+  - order_date
+  - channel
+  - qty
+  - order_value_inr
+  - lot_code
+
+Missing values:
+  None
+
+Duplicate rows: 0
+
+Channels:
+channel
+vireo.in    8289
+Amazon      4489
+Flipkart    2222
+
+======================================================================
+FILE: customers.csv
+======================================================================
+Rows: 9,500
+Columns: 6
+
+Columns:
+  - customer_id
+  - name
+  - city
+  - state
+  - signup_date
+  - care_plus
+
+Missing values:
+  None
+
+Duplicate rows: 0
+
+======================================================================
+FILE: products.csv
+======================================================================
+Rows: 14
+Columns: 7
+
+Columns:
+  - sku
+  - product_name
+  - family
+  - launch_date
+  - unit_cost_inr
+  - retail_price_inr
+  - warranty_months
+
+Missing values:
+  None
+
+Duplicate rows: 0
+
+======================================================================
+PROFILE COMPLETE
+======================================================================

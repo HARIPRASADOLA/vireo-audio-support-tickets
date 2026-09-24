@@ -1,0 +1,57 @@
+======================================================================
+VIREO AUDIO — BUSINESS VOLUME ANALYSIS
+======================================================================
+
+Total tickets: 11,780
+
+======================================================================
+CATEGORY VOLUME
+======================================================================
+           category  tickets share_pct
+ Billing & Payments     2564    21.77%
+Delivery & Shipping     1905    16.17%
+              Other     1622    13.77%
+  Returns & Refunds     1049     8.90%
+       Connectivity     1002     8.51%
+ Charging & Battery      820     6.96%
+     App & Firmware      699     5.93%
+    Product Enquiry      612     5.20%
+      Audio Quality      591     5.02%
+  Warranty & Repair      525     4.46%
+    Account & Login      391     3.32%
+
+======================================================================
+TEAM VOLUME
+======================================================================
+         assigned_team  tickets share_pct
+        Chat Frontline     3030    25.72%
+               Billing     2564    21.77%
+             Logistics     1905    16.17%
+       Email Frontline     1807    15.34%
+          Returns Desk     1049     8.90%
+       Voice Frontline      900     7.64%
+Escalations & Warranty      525     4.46%
+
+======================================================================
+PRIYA'S BILLING CLAIM
+======================================================================
+Billing tickets: 2,564
+Billing share:   21.77%
+Priya's stated figure: approximately 22%
+
+======================================================================
+NEHA / PRIYA LOGISTICS CLAIM
+======================================================================
+Logistics tickets: 1,905
+Logistics share:   16.17%
+Priya's stated figure: approximately 16%
+
+======================================================================
+LARGEST TEAM
+======================================================================
+Team:   Chat Frontline
+Tickets: 3,030
+Share:   25.72%
+
+Analysis saved to:
+output\business_volume.txt
